@@ -1,12 +1,10 @@
 package io.redis.jedis.pocredis.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.io.Serializable;
 
-@JsonIgnoreType
 public class Programmer implements Serializable {
 
     private Long id;
